@@ -27,9 +27,6 @@ Route::middleware([
     Route::get('/dashboard', function() {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/offer/{id?}', function() {
-        return view('offer');
-    })->name('offer');
     Route::get('/offers', function() {
         return view('offer.index');
     })->name('offers');
