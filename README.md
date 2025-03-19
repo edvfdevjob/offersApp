@@ -40,7 +40,7 @@
     ./vendor/bin/sail artisan key:generate o sail artisan key:generate
 6. Ejecutar las migraciones y seeders:  
    ./vendor/bin/sail artisan migrate --seed o sail artisan migrate --seed
-7. (Opcional) Compilar los assets si hay cambios en el frontend:
+7. Compilar los assets si hay cambios en el frontend:
     ./vendor/bin/sail npm install o sail npm install
     ./vendor/bin/sail npm run build o sail npm run build
 8. Acceder a la aplicación en http://localhost.
@@ -67,7 +67,11 @@
     php artisan migrate --seed
 6. Iniciar el servidor local de Laravel:
     php artisan serve
-7. (Opcional) Compilar los assets si hay cambios en el frontend:
+7. Compilar los assets si hay cambios en el frontend:
     npm install
     npm run build
 8. Acceder a la aplicación en http://localhost:8000.
+
+### **🔹 Usuarios:**
+Admin: admin@offersapp.com / password
+User: user@offersapp.com / password
